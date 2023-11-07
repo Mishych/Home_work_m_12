@@ -1,0 +1,36 @@
+{
+   "John": {
+      "name": "John",
+      "phones": [
+         "1234567890",
+         "5555555555"
+      ],
+      "birthday": "2010-11-10"
+   },
+   "Jane": {
+      "name": "Jane",
+      "phones": [
+         "9876543210"
+      ],
+      "birthday": "2004-11-11"
+   },
+   "Bill": {
+      "name": "Bill",
+      "phones": [
+         "0987847295"
+      ],
+      "birthday": "1945-12-12"
+   },
+   "Helen": {
+      "name": "Helen",
+      "phones": [],
+      "birthday": "not set"
+   },
+   "Tomas": {
+      "name": "Tomas",
+      "phones": [
+         "8888883333"
+      ],
+      "birthday": "2000-12-11"
+   }
+}

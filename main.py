@@ -295,7 +295,6 @@ def main():
                     else:
                         print("Error command!")
 
-
             elif user_input == "5":
                 name = input("Input new name --> ")
                 name_record = Record(name)
@@ -306,7 +305,7 @@ def main():
                         phone = input("Phone --> ")
                         try:
                             name_record.add_phone(phone)
-                            print(f"Phone added for {name_record.name.name}")
+                            print(f"Phone added for {name_record.name.name}\n")
                         except ValueError:
                             print("Invalid phone number. Phone not added.")
 
@@ -352,45 +351,3 @@ def main():
          
 if __name__ == "__main__":
     main()
-    
-    
-    # Creating a new address book
-    # book = AddressBook()
-    # john = book.find("John")
-    # print(john)
-    
-    # # # Creating a record for John
-    # john_record = Record("John")
-    # john_record.add_phone("1234567890")
-    # john_record.add_phone("5555555555")
-    # john_record.add_birthday("2010-11-10")
-    # # print(john_record)
-    # # print(john_record.days_to_bd())
-
-    # # Adding John's record to the address book
-    # book.add_record(john_record)
-
-    # # Creating and adding a new record for Jane
-    # jane_record = Record("Jane")
-    # jane_record.add_phone("9876543210")
-    # jane_record.add_birthday("2004-11-11")
-
-    # book.add_record(jane_record)
-    
-    # bill_record = Record("Bill")
-    # bill_record.add_phone("0987847295")
-    # bill_record.add_birthday("1945-12-12")
-    # book.add_record(bill_record)
-    
-    # helen_record = Record("Helen")
-    # # print(helen_record)
-    # book.add_record(helen_record)
-
-    
-    # print(book.find("John"))
-    # print(book.find("Jane"))
-    # book.find_data()
-    
-    
-    # for name, record in book.data.items():
-    #     print(record)
